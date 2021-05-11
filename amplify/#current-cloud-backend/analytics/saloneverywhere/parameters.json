@@ -1,0 +1,21 @@
+{
+    "appName": "saloneverywhere",
+    "roleName": "pinpointLambdaRole6f11405c",
+    "cloudformationPolicyName": "cloudformationPolicy6f11405c",
+    "cloudWatchPolicyName": "cloudWatchPolicy6f11405c",
+    "pinpointPolicyName": "pinpointPolicy6f11405c",
+    "authPolicyName": "pinpoint_amplify_6f11405c",
+    "unauthPolicyName": "pinpoint_amplify_6f11405c",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

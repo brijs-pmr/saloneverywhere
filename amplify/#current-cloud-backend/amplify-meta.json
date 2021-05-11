@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-saloneverywhere-dev-133412-authRole",
+      "UnauthRoleArn": "arn:aws:iam::887784467690:role/amplify-saloneverywhere-dev-133412-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::887784467690:role/amplify-saloneverywhere-dev-133412-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-saloneverywhere-dev-133412-deployment",
+      "UnauthRoleName": "amplify-saloneverywhere-dev-133412-unauthRole",
+      "StackName": "amplify-saloneverywhere-dev-133412",
+      "StackId": "arn:aws:cloudformation:us-east-1:887784467690:stack/amplify-saloneverywhere-dev-133412/f0af0150-b1b5-11eb-b6d2-0a679f4064a3",
+      "AmplifyAppId": "d2y1ngmzrknq4a"
+    }
+  },
+  "auth": {
+    "saloneverywheref4667a0d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-saloneverywhere-dev-133412-deployment/amplify-cfn-templates/auth/saloneverywheref4667a0d-cloudformation-template.yml",
+        "logicalId": "authsaloneverywheref4667a0d"
+      },
+      "lastPushTimeStamp": "2021-05-10T17:40:15.028Z",
+      "output": {
+        "UserPoolId": "us-east-1_puR4Oik0A",
+        "AppClientIDWeb": "46ccmtbftpqhlcu0kj510imkf3",
+        "AppClientID": "5cn4k4jpkd4gaaj5sinnbs37ud",
+        "IdentityPoolId": "us-east-1:9fa8327c-8e5c-4c16-8c20-08e704e5c1aa",
+        "IdentityPoolName": "saloneverywheref4667a0d_identitypool_f4667a0d__dev",
+        "UserPoolName": "saloneverywheref4667a0d_userpool_f4667a0d"
+      },
+      "lastPushDirHash": "sYufAktmPuH9A/ZIEUu8IHEPgbo="
+    }
+  },
+  "analytics": {
+    "saloneverywhere": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-saloneverywhere-dev-133412-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticssaloneverywhere"
+      },
+      "lastPushTimeStamp": "2021-05-10T17:40:15.028Z",
+      "output": {
+        "appName": "saloneverywhere-dev",
+        "Region": "us-east-1",
+        "Id": "ee449ffb74ca42e38c428accf27ef514"
+      },
+      "lastPushDirHash": "o+Q+PH+h1vtDMoaJsQvLJ/p4Mm0="
+    }
+  }
+}
